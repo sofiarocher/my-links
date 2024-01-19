@@ -42,7 +42,7 @@ function Home() {
             <span className='text-2xl md:text-4xl font-semibold w-full md:w-[78%] pb-8 md:pb-20'>
               {t("front")}
             </span>
-            <button className='md:w-[15%] px-7 py-2 rounded-full font-bold text-md md:text-2xl duration-200 border-2 hover:bg-white hover:text-black'>
+            <button className='sm:w-auto px-7 py-2 rounded-full font-bold text-md md:text-2xl duration-200 border-2 hover:bg-white hover:text-black'>
                 <a href="/project">{t("projects")}</a>
             </button>
             <span className="text-md md:text-sm font-semibold w-full md:w-[78%] pt-20">
