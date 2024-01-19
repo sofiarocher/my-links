@@ -14,15 +14,15 @@ function Icons() {
     i18n.changeLanguage(newLanguage);
   };
   return (
-    <div>
-        <a href="/"><FontAwesomeIcon icon={faHouse} className="text-4xl hover:scale-110 mr-8" /></a>
-        <a target="_blank" href="https://www.instagram.com/srocher_/"><FontAwesomeIcon icon={faInstagram} className="text-3xl hover:scale-110 mr-8" /></a>
-        <a target="_blank" href="https://www.linkedin.com/in/sofiarocher/"><FontAwesomeIcon icon={faLinkedinIn} className="text-3xl hover:scale-110 mr-8"  /></a>
-        <a target="_blank" href="https://www.tiktok.com/@srocher"><FontAwesomeIcon icon={faTiktok} className="text-3xl hover:scale-110 mr-8"  /></a>
-        <a target="_blank" href="https://www.youtube.com/channel/UCBSOvpxyqLs2s3Rq7PKd_Sg"><FontAwesomeIcon icon={faYoutube} className="text-3xl hover:scale-110 mr-8"  /></a>
-        <a target="_blank" href="https://discord.gg/gy4E4eygjg"><FontAwesomeIcon icon={faDiscord} className="text-3xl hover:scale-110 mr-8"  /></a>
+    <div className="m-auto ">
+        <a href="/"><FontAwesomeIcon icon={faHouse} className="text-2xl hover:scale-110 mr-4 sm:mr-8 sm:text-4xl" /></a>
+        <a target="_blank" href="https://www.instagram.com/srocher_/"><FontAwesomeIcon icon={faInstagram} className="text-xl hover:scale-110 mr-4 sm:mr-8 sm:text-3xl" /></a>
+        <a target="_blank" href="https://www.linkedin.com/in/sofiarocher/"><FontAwesomeIcon icon={faLinkedinIn} className="text-xl hover:scale-110 mr-4 sm:mr-8 sm:text-3xl"  /></a>
+        <a target="_blank" href="https://www.tiktok.com/@srocher"><FontAwesomeIcon icon={faTiktok} className="text-xl hover:scale-110 mr-4 sm:mr-8 sm:text-3xl"  /></a>
+        <a target="_blank" href="https://www.youtube.com/channel/UCBSOvpxyqLs2s3Rq7PKd_Sg"><FontAwesomeIcon icon={faYoutube} className="text-xl hover:scale-110 mr-4 sm:mr-8 sm:text-3xl"  /></a>
+        <a target="_blank" href="https://discord.gg/gy4E4eygjg"><FontAwesomeIcon icon={faDiscord} className="text-xl hover:scale-110 mr-4 sm:mr-8 sm:text-3xl"  /></a>
         <button onClick={changeLanguage}>
-          <FontAwesomeIcon icon={faGlobe} className="text-4xl hover:scale-110" />
+          <FontAwesomeIcon icon={faGlobe} className="text-2xl hover:scale-110 sm:text-4xl" />
         </button>
     </div>
   )
