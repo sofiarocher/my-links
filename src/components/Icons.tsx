@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDiscord, faInstagram, faLinkedinIn, faTiktok, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import { faGlobe, faHouse } from "@fortawesome/free-solid-svg-icons";
+import { faGlobe} from "@fortawesome/free-solid-svg-icons";
 import { useTranslation } from "react-i18next";
 
 
